@@ -1,0 +1,19 @@
+name: dart_esr_amax
+description: dart-esr is used to generate an EOSIO signing request (ESR) for a transaction/action/actions[]/identity request to be send, sign and broadcast to a node by a wallet (Anchor)
+version: 0.1.0
+homepage: https://github.com/EOS-Nation/dart-esr
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.4
+  json_annotation: ^4.4.0
+  pointycastle: ^3.3.5
+  amaxdart_ecc: ^0.4.4
+  amaxdart:
+    path: ../amaxdart
+
+dev_dependencies:
+  test: ^1.0.0
+  build_runner: ^1.7.4
