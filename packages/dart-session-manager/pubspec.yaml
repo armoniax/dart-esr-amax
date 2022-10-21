@@ -1,0 +1,27 @@
+name: dart_session_manager
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.19.0-108.0.dev <3.0.0'
+
+dependencies:
+  amaxdart:
+    path: ../amaxdart
+  dart_esr_amax:
+    path: ../dart-esr-amax
+  dart_buoy:
+    path: ../dart-buoy
+  uuid: ^3.0.6
+  bip32: ^2.0.0
+  bip39: ^1.0.6
+  amaxdart_ecc: ^0.4.4
+  hex: ^0.2.0
+  elliptic: ^0.3.8
+  hash: ^1.0.4
+  encrypt: ^5.0.1
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
