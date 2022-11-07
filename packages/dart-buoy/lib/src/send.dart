@@ -12,7 +12,7 @@ Future<http.Response> fetch(
 
   var response = await http.post(
     uri,
-    body: json.encode(body),
+    body: body is Map ? json.encode(body) : body,
     headers: headers,
   );
 
